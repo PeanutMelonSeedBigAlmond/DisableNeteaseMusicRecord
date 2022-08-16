@@ -4,9 +4,6 @@ import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.XposedHelpers
 import de.robv.android.xposed.callbacks.XC_LoadPackage
 import moe.peanutmelonseedbigalmond.disableneteasemusicrecord.utils.*
-import okhttp3.Protocol
-import okhttp3.Request
-import okhttp3.Response
 
 class Main:IXposedHookLoadPackage {
     private val packageName= arrayOf("com.netease.cloudmusic")
